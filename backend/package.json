@@ -7,6 +7,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
+    "build": "cd ../frontend && npm install && npm run build && cd ../backend",
+    "postbuild": "cp -r ../frontend/dist ./frontend/dist || true",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "lint": "eslint .",
