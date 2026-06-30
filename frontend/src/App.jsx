@@ -8,6 +8,7 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 import Dashboard from './pages/Dashboard'
 import Assessment from './pages/Assessment'
+import Reports from './pages/Reports'
 import ProtectedRoute from './components/Auth/ProtectedRoute'
 
 export default function App() {
@@ -53,6 +54,14 @@ export default function App() {
           element={
             <ProtectedRoute>
               <Assessment />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/reports"
+          element={
+            <ProtectedRoute>
+              <Reports />
             </ProtectedRoute>
           }
         />

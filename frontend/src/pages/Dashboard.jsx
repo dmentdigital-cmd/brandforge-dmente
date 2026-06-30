@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuthStore } from '../stores/authStore';
 import { useAssessmentStore } from '../stores/assessmentStore';
-import { ArrowRight, LogOut, Zap } from 'lucide-react';
+import { ArrowRight, LogOut, Zap, FileText } from 'lucide-react';
 
 const MODULES = [
   {
@@ -128,6 +128,14 @@ export default function Dashboard() {
           </div>
 
           <div className="flex items-center gap-4">
+            <button
+              onClick={() => navigate('/reports')}
+              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-700 hover:bg-slate-600 text-slate-300 hover:text-white transition-all"
+            >
+              <FileText size={18} />
+              Reportes
+            </button>
+
             <div className="text-right">
               <p className="text-sm font-semibold text-white">
                 {user?.firstName} {user?.lastName}

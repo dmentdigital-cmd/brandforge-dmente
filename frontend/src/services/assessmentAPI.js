@@ -113,3 +113,52 @@ export const getAssessmentDetails = async (assessmentId) => {
     throw new Error(error.error || 'Failed to fetch assessment details');
   }
 };
+
+/**
+ * Descargar PDF del assessment
+ */
+export const downloadAssessmentPDF = async (assessmentId) => {
+  try {
+    const token = localStorage.getItem('authToken');
+    const response = await fetch(
+      `${API_URL}/api/report/${assessmentId}/pdf`,
+      {
+        method: 'GET',
+        headers: {
+          'Authorization': `Bearer ${token}`
+        }
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error('Failed to download PDF');
+    }
+
+    // Crear blob y descargar
+    const blob = await response.blob();
+    const url = window.URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `BrandForge_Report_${new Date().toISOString().split('T')[0]}.pdf`;
+    document.body.appendChild(link);
+    link.click();
+    window.URL.revokeObjectURL(url);
+    document.body.removeChild(link);
+
+    return true;
+  } catch (error) {
+    throw new Error(error.message || 'Failed to download PDF');
+  }
+};
+
+/**
+ * Obtener datos del reporte
+ */
+export const getReportData = async (assessmentId) => {
+  try {
+    const { data } = await api.get(`/report/${assessmentId}`);
+    return data;
+  } catch (error) {
+    throw new Error(error.error || 'Failed to fetch report data');
+  }
+};

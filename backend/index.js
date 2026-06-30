@@ -10,11 +10,17 @@ import sequelize, { testConnection, syncDatabase } from './config/database.js';
 // Import routes
 import authRoutes from './src/routes/authRoutes.js';
 import assessmentRoutes from './src/routes/assessmentRoutes.js';
+import reportRoutes from './src/routes/reportRoutes.js';
 
 // Import models (to ensure they're registered with Sequelize)
 import User from './src/models/User.js';
 import Assessment from './src/models/Assessment.js';
 import AssessmentResponse from './src/models/AssessmentResponse.js';
+
+// Define associations
+Assessment.belongsTo(User, { foreignKey: 'userId' });
+Assessment.hasMany(AssessmentResponse, { foreignKey: 'assessmentId' });
+AssessmentResponse.belongsTo(Assessment, { foreignKey: 'assessmentId' });
 
 // Load environment variables
 dotenv.config();
@@ -30,6 +36,7 @@ app.use(express.urlencoded({ extended: true }));
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/assessment', assessmentRoutes);
+app.use('/api/report', reportRoutes);
 
 // Health check
 app.get('/api/health', (req, res) => {

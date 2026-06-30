@@ -2,8 +2,10 @@
 // RESULTS SUMMARY COMPONENT
 // ===================================
 
+import { useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Cell } from 'recharts';
-import { ArrowRight, Download } from 'lucide-react';
+import { ArrowRight, Download, Loader } from 'lucide-react';
+import { downloadAssessmentPDF } from '../../services/assessmentAPI';
 
 const SCORE_COLORS = {
   excellent: '#10b981',
@@ -22,11 +24,15 @@ const SCORE_LABELS = {
 };
 
 export default function ResultsSummary({ results, onContinue }) {
+  const [isDownloading, setIsDownloading] = useState(false);
+  const [downloadError, setDownloadError] = useState(null);
+
   if (!results) {
     return null;
   }
 
   const {
+    assessmentId,
     score,
     scoreLevel,
     correctAnswers,
@@ -34,6 +40,19 @@ export default function ResultsSummary({ results, onContinue }) {
     analysis,
     completedAt
   } = results;
+
+  const handleDownloadPDF = async () => {
+    setIsDownloading(true);
+    setDownloadError(null);
+
+    try {
+      await downloadAssessmentPDF(assessmentId);
+    } catch (error) {
+      setDownloadError(error.message);
+    } finally {
+      setIsDownloading(false);
+    }
+  };
 
   // Preparar datos para gráfico
   const chartData = analysis?.categoryScores
@@ -190,14 +209,34 @@ export default function ResultsSummary({ results, onContinue }) {
         </button>
 
         <button
+          onClick={handleDownloadPDF}
+          disabled={isDownloading}
           className="flex-1 flex items-center justify-center gap-2 px-6 py-3 rounded-lg
             bg-slate-700 hover:bg-slate-600 text-white font-semibold
-            transition-all duration-200"
+            transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          <Download size={20} />
-          Descargar Reporte (Próximamente)
+          {isDownloading ? (
+            <>
+              <Loader size={20} className="animate-spin" />
+              Generando PDF...
+            </>
+          ) : (
+            <>
+              <Download size={20} />
+              Descargar Reporte PDF
+            </>
+          )}
         </button>
       </div>
+
+      {/* Error de descarga */}
+      {downloadError && (
+        <div className="mt-4 p-3 bg-red-500/10 border border-red-500/30 rounded-lg">
+          <p className="text-red-400 text-sm">
+            Error al descargar: {downloadError}
+          </p>
+        </div>
+      )}
 
       {/* Metadata */}
       <div className="text-center text-xs text-slate-500">
