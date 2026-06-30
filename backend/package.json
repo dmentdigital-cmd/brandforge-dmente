@@ -1,14 +1,16 @@
 {
   "name": "brandforge-backend",
   "version": "1.0.0",
-  "description": "BrandForge API - Herramienta SaaS de Marca Personal",
-  "main": "src/index.js",
+  "description": "BrandForge Backend - Personal Brand Diagnosis & Monetization SaaS",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "keywords": [
     "marca",
