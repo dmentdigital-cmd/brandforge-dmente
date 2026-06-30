@@ -426,5 +426,685 @@
         "category": "autoconocimiento"
       }
     ]
+  },
+  "strategy": {
+    "title": "Módulo 2: Estrategia de Marca",
+    "description": "Define tu nicho, propuesta de valor y posicionamiento estratégico",
+    "icon": "📊",
+    "estimatedTime": 12,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "single_choice",
+        "number": 1,
+        "question": "¿Cuál es tu nicho de mercado más específico?",
+        "description": "El segmento donde tienes mayor expertise",
+        "options": [
+          {"id": "a", "text": "Muy específico (ej: abogados en propiedad intelectual)"},
+          {"id": "b", "text": "Moderadamente específico (ej: abogados en derecho digital)"},
+          {"id": "c", "text": "Amplio (ej: servicios legales en general)"},
+          {"id": "d", "text": "Aún estoy explorando nichos"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "nicho"
+      },
+      {
+        "id": "q2",
+        "type": "single_choice",
+        "number": 2,
+        "question": "¿Cuál es tu propuesta de valor diferencial?",
+        "description": "Lo específico que ofreces que otros no",
+        "options": [
+          {"id": "a", "text": "Combinación única de habilidades"},
+          {"id": "b", "text": "Experiencia/metodología probada"},
+          {"id": "c", "text": "Relación precio-valor excepcional"},
+          {"id": "d", "text": "Acceso a red/conexiones exclusivas"}
+        ],
+        "correctAnswer": "b",
+        "weight": 1,
+        "category": "uvp"
+      },
+      {
+        "id": "q3",
+        "type": "single_choice",
+        "number": 3,
+        "question": "¿Cuál es tu promesa de marca clave?",
+        "description": "Lo que prometes a tu audiencia",
+        "options": [
+          {"id": "a", "text": "Resultados medibles y rápidos"},
+          {"id": "b", "text": "Transformación profunda a largo plazo"},
+          {"id": "c", "text": "Máxima calidad sin importar el precio"},
+          {"id": "d", "text": "Educación y empoderamiento"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "posicionamiento"
+      },
+      {
+        "id": "q4",
+        "type": "single_choice",
+        "number": 4,
+        "question": "¿Quién es tu cliente/audiencia ideal?",
+        "description": "El perfil de persona con la que trabajas mejor",
+        "options": [
+          {"id": "a", "text": "Empresas pequeñas/startups"},
+          {"id": "b", "text": "Medianas empresas"},
+          {"id": "c", "text": "Grandes corporaciones"},
+          {"id": "d", "text": "Personas individuales/autónomos"}
+        ],
+        "correctAnswer": "d",
+        "weight": 1,
+        "category": "tribu"
+      },
+      {
+        "id": "q5",
+        "type": "single_choice",
+        "number": 5,
+        "question": "¿Cómo es tu estrategia competitiva?",
+        "description": "Cómo compites en tu mercado",
+        "options": [
+          {"id": "a", "text": "Liderazgo en costo (más barato)"},
+          {"id": "b", "text": "Diferenciación (único/especializado)"},
+          {"id": "c", "text": "Enfoque en nicho específico"},
+          {"id": "d", "text": "No tengo estrategia clara"}
+        ],
+        "correctAnswer": "b",
+        "weight": 1,
+        "category": "posicionamiento"
+      },
+      {
+        "id": "q6",
+        "type": "single_choice",
+        "number": 6,
+        "question": "¿Cuál es tu fortaleza competitiva principal?",
+        "description": "Tu ventaja respecto a la competencia",
+        "options": [
+          {"id": "a", "text": "Experiencia/track record"},
+          {"id": "b", "text": "Innovación y metodología única"},
+          {"id": "c", "text": "Mejor servicio al cliente"},
+          {"id": "d", "text": "Aún no la identifico"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "posicionamiento"
+      },
+      {
+        "id": "q7",
+        "type": "single_choice",
+        "number": 7,
+        "question": "¿Cuál es tu debilidad estratégica?",
+        "description": "Área donde necesitas mejorar",
+        "options": [
+          {"id": "a", "text": "Visibilidad y alcance"},
+          {"id": "b", "text": "Credibilidad/autoridad"},
+          {"id": "c", "text": "Capacidad de servicio"},
+          {"id": "d", "text": "Precio vs competencia"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "nicho"
+      },
+      {
+        "id": "q8",
+        "type": "single_choice",
+        "number": 8,
+        "question": "¿Cuál es tu oportunidad de mercado?",
+        "description": "Dónde ves crecimiento potencial",
+        "options": [
+          {"id": "a", "text": "Nuevo segmento de clientes"},
+          {"id": "b", "text": "Nuevo mercado geográfico"},
+          {"id": "c", "text": "Nuevos servicios/productos"},
+          {"id": "d", "text": "Consolidar mercado actual"}
+        ],
+        "correctAnswer": "c",
+        "weight": 1,
+        "category": "tribu"
+      }
+    ]
+  },
+  "identity": {
+    "title": "Módulo 3: Identidad Visual",
+    "description": "Diseña tu guía visual y brand identity profesional",
+    "icon": "🎨",
+    "estimatedTime": 15,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "single_choice",
+        "number": 1,
+        "question": "¿Cuál es tu paleta de colores preferida?",
+        "description": "Los colores que representan tu marca",
+        "options": [
+          {"id": "a", "text": "Colores vibrantes y energéticos"},
+          {"id": "b", "text": "Colores neutrales y profesionales"},
+          {"id": "c", "text": "Colores oscuros y minimalistas"},
+          {"id": "d", "text": "Aún no lo he definido"}
+        ],
+        "correctAnswer": "b",
+        "weight": 1,
+        "category": "color"
+      },
+      {
+        "id": "q2",
+        "type": "single_choice",
+        "number": 2,
+        "question": "¿Cuál es tu tipografía preferida?",
+        "description": "El estilo de fuentes que usas",
+        "options": [
+          {"id": "a", "text": "Sans-serif moderna y clara"},
+          {"id": "b", "text": "Serif clásica y elegante"},
+          {"id": "c", "text": "Geometric y geométrica"},
+          {"id": "d", "text": "No tengo preferencia"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "typography"
+      },
+      {
+        "id": "q3",
+        "type": "single_choice",
+        "number": 3,
+        "question": "¿Cuál es tu estilo visual general?",
+        "description": "La estética que defines tu marca",
+        "options": [
+          {"id": "a", "text": "Minimalista y limpio"},
+          {"id": "b", "text": "Corporativo y formal"},
+          {"id": "c", "text": "Creativo y artístico"},
+          {"id": "d", "text": "Casual y amigable"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "visual"
+      },
+      {
+        "id": "q4",
+        "type": "single_choice",
+        "number": 4,
+        "question": "¿Tienes un logo definido?",
+        "description": "Tu símbolo/marca visual",
+        "options": [
+          {"id": "a", "text": "Sí, profesional y consistente"},
+          {"id": "b", "text": "Sí, pero necesita mejoras"},
+          {"id": "c", "text": "Tengo un concepto pero no diseño"},
+          {"id": "d", "text": "No tengo logo"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "brand_board"
+      },
+      {
+        "id": "q5",
+        "type": "single_choice",
+        "number": 5,
+        "question": "¿Cuál es tu estilo fotográfico?",
+        "description": "Cómo ves las imágenes que te representan",
+        "options": [
+          {"id": "a", "text": "Fotografía profesional de estudio"},
+          {"id": "b", "text": "Fotos naturales y candidas"},
+          {"id": "c", "text": "Ilustraciones o diseños gráficos"},
+          {"id": "d", "text": "Mezcla de varios estilos"}
+        ],
+        "correctAnswer": "b",
+        "weight": 1,
+        "category": "visual"
+      },
+      {
+        "id": "q6",
+        "type": "single_choice",
+        "number": 6,
+        "question": "¿Tienes una guía de marca documentada?",
+        "description": "Brand guidelines con reglas visuales",
+        "options": [
+          {"id": "a", "text": "Sí, completa y documentada"},
+          {"id": "b", "text": "Parcialmente, pero desorganizada"},
+          {"id": "c", "text": "Solo en mi mente"},
+          {"id": "d", "text": "No tengo"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "brand_board"
+      },
+      {
+        "id": "q7",
+        "type": "single_choice",
+        "number": 7,
+        "question": "¿Cuál es tu material visual más importante?",
+        "description": "El asset que más usas",
+        "options": [
+          {"id": "a", "text": "Foto de perfil profesional"},
+          {"id": "b", "text": "Banner o portada visual"},
+          {"id": "c", "text": "Logo"},
+          {"id": "d", "text": "Paleta de colores"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "visual"
+      },
+      {
+        "id": "q8",
+        "type": "single_choice",
+        "number": 8,
+        "question": "¿Con qué frecuencia actualizas tu identidad visual?",
+        "description": "Consistencia del diseño",
+        "options": [
+          {"id": "a", "text": "Regularmente (trimestral)"},
+          {"id": "b", "text": "Ocasionalmente (anual)"},
+          {"id": "c", "text": "Rara vez"},
+          {"id": "d", "text": "Nunca la cambio"}
+        ],
+        "correctAnswer": "b",
+        "weight": 1,
+        "category": "brand_board"
+      }
+    ]
+  },
+  "platforms": {
+    "title": "Módulo 4: Plataformas Digitales",
+    "description": "Estrategia de presencia en redes sociales y plataformas",
+    "icon": "🌐",
+    "estimatedTime": 12,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "single_choice",
+        "number": 1,
+        "question": "¿Cuál es tu plataforma principal?",
+        "description": "Donde tienes mejor presencia",
+        "options": [
+          {"id": "a", "text": "LinkedIn"},
+          {"id": "b", "text": "Instagram"},
+          {"id": "c", "text": "Tu sitio web"},
+          {"id": "d", "text": "No tengo plataforma fuerte"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "plataforma_principal"
+      },
+      {
+        "id": "q2",
+        "type": "single_choice",
+        "number": 2,
+        "question": "¿En cuántas plataformas estás presente?",
+        "description": "Número de redes donde actúas",
+        "options": [
+          {"id": "a", "text": "1 plataforma (enfoque)"},
+          {"id": "b", "text": "2-3 plataformas"},
+          {"id": "c", "text": "4-5 plataformas"},
+          {"id": "d", "text": "6+ plataformas"}
+        ],
+        "correctAnswer": "b",
+        "weight": 1,
+        "category": "estrategia"
+      },
+      {
+        "id": "q3",
+        "type": "single_choice",
+        "number": 3,
+        "question": "¿Con qué frecuencia publicas contenido?",
+        "description": "Consistencia de publicación",
+        "options": [
+          {"id": "a", "text": "Diariamente"},
+          {"id": "b", "text": "3-4 veces por semana"},
+          {"id": "c", "text": "1-2 veces por semana"},
+          {"id": "d", "text": "Ocasionalmente"}
+        ],
+        "correctAnswer": "b",
+        "weight": 1,
+        "category": "estrategia"
+      },
+      {
+        "id": "q4",
+        "type": "single_choice",
+        "number": 4,
+        "question": "¿Cuál es tu tasa de engagement?",
+        "description": "Interacción con tu contenido",
+        "options": [
+          {"id": "a", "text": "Alta (10%+)"},
+          {"id": "b", "text": "Media (3-10%)"},
+          {"id": "c", "text": "Baja (1-3%)"},
+          {"id": "d", "text": "Muy baja (<1%)"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "auditoria"
+      },
+      {
+        "id": "q5",
+        "type": "single_choice",
+        "number": 5,
+        "question": "¿Tienes una estrategia de contenido?",
+        "description": "Plan de qué publicas y cuándo",
+        "options": [
+          {"id": "a", "text": "Sí, detallada y documentada"},
+          {"id": "b", "text": "Parcialmente, improvisada"},
+          {"id": "c", "text": "Publico lo que se me ocurre"},
+          {"id": "d", "text": "No tengo estrategia"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "estrategia"
+      },
+      {
+        "id": "q6",
+        "type": "single_choice",
+        "number": 6,
+        "question": "¿Usas calendario editorial?",
+        "description": "Planificación de contenido",
+        "options": [
+          {"id": "a", "text": "Sí, planificado 1 mes adelante"},
+          {"id": "b", "text": "Sí, planificado 1 semana adelante"},
+          {"id": "c", "text": "A veces, improvisado"},
+          {"id": "d", "text": "No uso calendario"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "calendario"
+      },
+      {
+        "id": "q7",
+        "type": "single_choice",
+        "number": 7,
+        "question": "¿Tu sitio web es optimizado?",
+        "description": "Velocidad, SEO, mobile-friendly",
+        "options": [
+          {"id": "a", "text": "Sí, totalmente optimizado"},
+          {"id": "b", "text": "Parcialmente optimizado"},
+          {"id": "c", "text": "Necesita mejoras"},
+          {"id": "d", "text": "No tengo sitio web"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "auditoria"
+      },
+      {
+        "id": "q8",
+        "type": "single_choice",
+        "number": 8,
+        "question": "¿Integras tus plataformas?",
+        "description": "Conexión entre redes",
+        "options": [
+          {"id": "a", "text": "Sí, totalmente integradas"},
+          {"id": "b", "text": "Parcialmente"},
+          {"id": "c", "text": "Minimamente"},
+          {"id": "d", "text": "No están integradas"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "estrategia"
+      }
+    ]
+  },
+  "narrative": {
+    "title": "Módulo 5: Narrativa y Storytelling",
+    "description": "Comunica tu historia, mensaje y valor con claridad",
+    "icon": "📝",
+    "estimatedTime": 14,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "single_choice",
+        "number": 1,
+        "question": "¿Tienes una historia de fondo clara?",
+        "description": "Tu 'por qué' y origen",
+        "options": [
+          {"id": "a", "text": "Sí, bien definida y compartible"},
+          {"id": "b", "text": "Sí, pero desorganizada"},
+          {"id": "c", "text": "Tengo fragmentos"},
+          {"id": "d", "text": "No la he documentado"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "historia"
+      },
+      {
+        "id": "q2",
+        "type": "single_choice",
+        "number": 2,
+        "question": "¿Cómo comunicas tu valor?",
+        "description": "Tu mensaje principal",
+        "options": [
+          {"id": "a", "text": "Basado en resultados/beneficios"},
+          {"id": "b", "text": "Basado en experiencia/expertise"},
+          {"id": "c", "text": "Basado en emociones/propósito"},
+          {"id": "d", "text": "Sin mensaje claro"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "contenido"
+      },
+      {
+        "id": "q3",
+        "type": "single_choice",
+        "number": 3,
+        "question": "¿Tienes historias de clientes/casos?",
+        "description": "Ejemplos concretos de éxito",
+        "options": [
+          {"id": "a", "text": "Sí, varias documentadas"},
+          {"id": "b", "text": "Sí, pero no formalizadas"},
+          {"id": "c", "text": "Tengo 1-2 historias"},
+          {"id": "d", "text": "No tengo casos documentados"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "casos"
+      },
+      {
+        "id": "q4",
+        "type": "single_choice",
+        "number": 4,
+        "question": "¿Cuál es tu tono de voz?",
+        "description": "Cómo hablas con tu audiencia",
+        "options": [
+          {"id": "a", "text": "Profesional y formal"},
+          {"id": "b", "text": "Amigable y conversacional"},
+          {"id": "c", "text": "Inspiracional y motivador"},
+          {"id": "d", "text": "Educativo y experto"}
+        ],
+        "correctAnswer": "b",
+        "weight": 1,
+        "category": "contenido"
+      },
+      {
+        "id": "q5",
+        "type": "single_choice",
+        "number": 5,
+        "question": "¿Tienes un elevator pitch?",
+        "description": "Presentación de 30 segundos",
+        "options": [
+          {"id": "a", "text": "Sí, pulido y efectivo"},
+          {"id": "b", "text": "Sí, pero necesita mejoras"},
+          {"id": "c", "text": "Tengo algo improvisado"},
+          {"id": "d", "text": "No tengo"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "pitch"
+      },
+      {
+        "id": "q6",
+        "type": "single_choice",
+        "number": 6,
+        "question": "¿Usas datos/números en tu narrativa?",
+        "description": "Evidencia y pruebas",
+        "options": [
+          {"id": "a", "text": "Sí, con regularidad"},
+          {"id": "b", "text": "A veces"},
+          {"id": "c", "text": "Raramente"},
+          {"id": "d", "text": "No"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "contenido"
+      },
+      {
+        "id": "q7",
+        "type": "single_choice",
+        "number": 7,
+        "question": "¿Tu mensaje es consistente?",
+        "description": "Mismo mensaje en todas plataformas",
+        "options": [
+          {"id": "a", "text": "Sí, totalmente consistente"},
+          {"id": "b", "text": "Mayormente consistente"},
+          {"id": "c", "text": "Varía según plataforma"},
+          {"id": "d", "text": "Muy inconsistente"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "contenido"
+      },
+      {
+        "id": "q8",
+        "type": "single_choice",
+        "number": 8,
+        "question": "¿Tienes matriz de contenido?",
+        "description": "Pilares y ángulos definidos",
+        "options": [
+          {"id": "a", "text": "Sí, detallada y usada"},
+          {"id": "b", "text": "Sí, pero no totalmente usada"},
+          {"id": "c", "text": "Tengo idea general"},
+          {"id": "d", "text": "No tengo"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "contenido"
+      }
+    ]
+  },
+  "monetization": {
+    "title": "Módulo 6: Monetización",
+    "description": "Plan de ingresos y estrategia de escalamiento",
+    "icon": "💰",
+    "estimatedTime": 16,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "single_choice",
+        "number": 1,
+        "question": "¿Cuántas fuentes de ingresos tienes?",
+        "description": "Diversidad de streams",
+        "options": [
+          {"id": "a", "text": "Una fuente principal"},
+          {"id": "b", "text": "2-3 fuentes combinadas"},
+          {"id": "c", "text": "4+ fuentes diversificadas"},
+          {"id": "d", "text": "Aún no monetizo"}
+        ],
+        "correctAnswer": "b",
+        "weight": 1,
+        "category": "streams"
+      },
+      {
+        "id": "q2",
+        "type": "single_choice",
+        "number": 2,
+        "question": "¿Cuál es tu tarifa/precio principal?",
+        "description": "Cómo cobras por tu valor",
+        "options": [
+          {"id": "a", "text": "Por proyecto/entrega"},
+          {"id": "b", "text": "Por hora"},
+          {"id": "c", "text": "Por retainer/mensual"},
+          {"id": "d", "text": "No tengo tarifa definida"}
+        ],
+        "correctAnswer": "c",
+        "weight": 1,
+        "category": "streams"
+      },
+      {
+        "id": "q3",
+        "type": "single_choice",
+        "number": 3,
+        "question": "¿Tienes productos digitales?",
+        "description": "Infoproductos, cursos, plantillas",
+        "options": [
+          {"id": "a", "text": "Sí, varios activos"},
+          {"id": "b", "text": "Sí, en desarrollo"},
+          {"id": "c", "text": "Tengo idea pero no hecho"},
+          {"id": "d", "text": "No tengo"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "streams"
+      },
+      {
+        "id": "q4",
+        "type": "single_choice",
+        "number": 4,
+        "question": "¿Monetizas tu expertise en línea?",
+        "description": "Servicios online, consultoría",
+        "options": [
+          {"id": "a", "text": "Sí, totalmente online"},
+          {"id": "b", "text": "Híbrido online/presencial"},
+          {"id": "c", "text": "Principalmente presencial"},
+          {"id": "d", "text": "No monetizo"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "streams"
+      },
+      {
+        "id": "q5",
+        "type": "single_choice",
+        "number": 5,
+        "question": "¿Cuál es tu ingreso mensual promedio?",
+        "description": "Volumen de ingresos actuales",
+        "options": [
+          {"id": "a", "text": "$5000+"},
+          {"id": "b", "text": "$2000-5000"},
+          {"id": "c", "text": "$500-2000"},
+          {"id": "d", "text": "Menos de $500"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "streams"
+      },
+      {
+        "id": "q6",
+        "type": "single_choice",
+        "number": 6,
+        "question": "¿Tienes plan de crecimiento de ingresos?",
+        "description": "Estrategia de escalamiento",
+        "options": [
+          {"id": "a", "text": "Sí, detallado para 12 meses"},
+          {"id": "b", "text": "Sí, pero general"},
+          {"id": "c", "text": "Tengo ideas sueltas"},
+          {"id": "d", "text": "No tengo plan"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "plan"
+      },
+      {
+        "id": "q7",
+        "type": "single_choice",
+        "number": 7,
+        "question": "¿Cuál es tu principal limitante para crecer?",
+        "description": "Obstáculo de escalamiento",
+        "options": [
+          {"id": "a", "text": "Falta de demanda/leads"},
+          {"id": "b", "text": "Capacidad limitada (tiempo)"},
+          {"id": "c", "text": "No sé cómo escalar"},
+          {"id": "d", "text": "Falta de inversión"}
+        ],
+        "correctAnswer": "b",
+        "weight": 1,
+        "category": "plan"
+      },
+      {
+        "id": "q8",
+        "type": "single_choice",
+        "number": 8,
+        "question": "¿Dónde ves tu marca en 2 años?",
+        "description": "Visión de crecimiento",
+        "options": [
+          {"id": "a", "text": "Marca reconocida en nicho"},
+          {"id": "b", "text": "Ingresos pasivos significativos"},
+          {"id": "c", "text": "Equipo/empleados"},
+          {"id": "d", "text": "Sin visión clara"}
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "tracking"
+      }
+    ]
   }
 }
