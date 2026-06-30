@@ -1,0 +1,430 @@
+{
+  "fundamentals": {
+    "title": "Módulo 1: Fundamentos de Marca Personal",
+    "description": "Autodiagnóstico de tu marca personal: qué te hace único, cómo te perciben y dónde estás posicionado",
+    "icon": "🎯",
+    "estimatedTime": 10,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "single_choice",
+        "number": 1,
+        "question": "¿Cuál es tu principal diferenciador en tu profesión?",
+        "description": "Lo que te hace único comparado con tus competidores",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mi experiencia años en la industria"
+          },
+          {
+            "id": "b",
+            "text": "Mi enfoque o metodología diferente"
+          },
+          {
+            "id": "c",
+            "text": "Mi red de conexiones o influencia"
+          },
+          {
+            "id": "d",
+            "text": "No estoy completamente seguro"
+          }
+        ],
+        "correctAnswer": "b",
+        "weight": 1,
+        "category": "autoconocimiento"
+      },
+      {
+        "id": "q2",
+        "type": "single_choice",
+        "number": 2,
+        "question": "¿Cuál es tu fortaleza profesional más importante?",
+        "description": "Aquello en lo que eres exceptionally bueno",
+        "options": [
+          {
+            "id": "a",
+            "text": "Conocimiento técnico profundo"
+          },
+          {
+            "id": "b",
+            "text": "Capacidad de comunicación y liderazgo"
+          },
+          {
+            "id": "c",
+            "text": "Creatividad e innovación"
+          },
+          {
+            "id": "d",
+            "text": "Varias en igual medida"
+          }
+        ],
+        "correctAnswer": "d",
+        "weight": 1,
+        "category": "autoconocimiento"
+      },
+      {
+        "id": "q3",
+        "type": "single_choice",
+        "number": 3,
+        "question": "¿Cómo crees que te perciben tus clientes/colegas principales?",
+        "description": "Tu reputación percibida en tu círculo",
+        "options": [
+          {
+            "id": "a",
+            "text": "Como experto en mi área"
+          },
+          {
+            "id": "b",
+            "text": "Como alguien confiable pero no diferenciado"
+          },
+          {
+            "id": "c",
+            "text": "Como innovador o disruptor"
+          },
+          {
+            "id": "d",
+            "text": "No sé cómo me perciben"
+          }
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "autoconocimiento"
+      },
+      {
+        "id": "q4",
+        "type": "single_choice",
+        "number": 4,
+        "question": "¿Tienes una Historia de fondo clara sobre por qué haces lo que haces?",
+        "description": "Tu 'por qué' personal o misión",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sí, muy clara y la comparto"
+          },
+          {
+            "id": "b",
+            "text": "La tengo pero no la comunico"
+          },
+          {
+            "id": "c",
+            "text": "Tengo una idea pero no está clara"
+          },
+          {
+            "id": "d",
+            "text": "No la he pensado"
+          }
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "autoconocimiento"
+      },
+      {
+        "id": "q5",
+        "type": "single_choice",
+        "number": 5,
+        "question": "¿Cuáles son tus valores personales/profesionales fundamentales?",
+        "description": "Lo que guía tus decisiones y acciones",
+        "options": [
+          {
+            "id": "a",
+            "text": "Los tengo claros y definidos"
+          },
+          {
+            "id": "b",
+            "text": "Tengo una idea general"
+          },
+          {
+            "id": "c",
+            "text": "Nunca los he formalizado"
+          },
+          {
+            "id": "d",
+            "text": "Prefiero no definirlos"
+          }
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "autoconocimiento"
+      },
+      {
+        "id": "q6",
+        "type": "single_choice",
+        "number": 6,
+        "question": "¿Cuál es tu nicho actual o sector principal?",
+        "description": "Dónde enfocas tu expertise",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tengo un nicho muy específico y claro"
+          },
+          {
+            "id": "b",
+            "text": "Trabajo en 2-3 nichos relacionados"
+          },
+          {
+            "id": "c",
+            "text": "Ofrezco servicios generales sin enfoque"
+          },
+          {
+            "id": "d",
+            "text": "Aún estoy explorando"
+          }
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "mercado"
+      },
+      {
+        "id": "q7",
+        "type": "single_choice",
+        "number": 7,
+        "question": "¿Cómo ves la demanda actual de tus servicios/expertise?",
+        "description": "Oportunidad de mercado en tu área",
+        "options": [
+          {
+            "id": "a",
+            "text": "Alta demanda, más oportunidades que capacidad"
+          },
+          {
+            "id": "b",
+            "text": "Demanda moderada, mercado estable"
+          },
+          {
+            "id": "c",
+            "text": "Baja demanda, competencia intensa"
+          },
+          {
+            "id": "d",
+            "text": "No estoy seguro de la demanda"
+          }
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "mercado"
+      },
+      {
+        "id": "q8",
+        "type": "single_choice",
+        "number": 8,
+        "question": "¿Cómo evaluarías tu presencia online actual?",
+        "description": "Visibilidad en redes sociales, web, Google, LinkedIn",
+        "options": [
+          {
+            "id": "a",
+            "text": "Fuerte: activo en redes y fácil de encontrar"
+          },
+          {
+            "id": "b",
+            "text": "Moderada: presente pero no optimizada"
+          },
+          {
+            "id": "c",
+            "text": "Débil: poco presente online"
+          },
+          {
+            "id": "d",
+            "text": "Inexistente: no tengo presencia digital"
+          }
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "presencia"
+      },
+      {
+        "id": "q9",
+        "type": "single_choice",
+        "number": 9,
+        "question": "¿En cuál plataforma tienes mayor engagement con tu audiencia?",
+        "description": "Dónde tu contenido genera más interacción",
+        "options": [
+          {
+            "id": "a",
+            "text": "LinkedIn (conexiones profesionales)"
+          },
+          {
+            "id": "b",
+            "text": "Instagram (visual y comunidad)"
+          },
+          {
+            "id": "c",
+            "text": "Tu sitio web o blog"
+          },
+          {
+            "id": "d",
+            "text": "No tengo presencia significativa en ninguna"
+          }
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "presencia"
+      },
+      {
+        "id": "q10",
+        "type": "single_choice",
+        "number": 10,
+        "question": "¿Cuál es tu objetivo principal en los próximos 12 meses?",
+        "description": "Meta profesional más importante",
+        "options": [
+          {
+            "id": "a",
+            "text": "Aumentar ingresos significativamente"
+          },
+          {
+            "id": "b",
+            "text": "Posicionarme como experto referente"
+          },
+          {
+            "id": "c",
+            "text": "Escalar mi negocio/agencia"
+          },
+          {
+            "id": "d",
+            "text": "Cambiar de carrera o nicho"
+          }
+        ],
+        "correctAnswer": "b",
+        "weight": 1,
+        "category": "objetivos"
+      },
+      {
+        "id": "q11",
+        "type": "single_choice",
+        "number": 11,
+        "question": "¿Cuál es tu prioridad de negocio ACTUAL?",
+        "description": "En qué necesitas enfoque inmediato",
+        "options": [
+          {
+            "id": "a",
+            "text": "Conseguir más clientes/leads"
+          },
+          {
+            "id": "b",
+            "text": "Mejorar percepción y credibilidad"
+          },
+          {
+            "id": "c",
+            "text": "Crear múltiples fuentes de ingresos"
+          },
+          {
+            "id": "d",
+            "text": "Definir mi posicionamiento"
+          }
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "objetivos"
+      },
+      {
+        "id": "q12",
+        "type": "single_choice",
+        "number": 12,
+        "question": "¿Cuál es el impacto que deseas generar con tu marca?",
+        "description": "Tu propósito o legado",
+        "options": [
+          {
+            "id": "a",
+            "text": "Impacto social/ambiental (causa)"
+          },
+          {
+            "id": "b",
+            "text": "Impacto educativo (enseñar/inspirar)"
+          },
+          {
+            "id": "c",
+            "text": "Impacto económico (generar riqueza)"
+          },
+          {
+            "id": "d",
+            "text": "Aún no lo he definido"
+          }
+        ],
+        "correctAnswer": "b",
+        "weight": 1,
+        "category": "objetivos"
+      },
+      {
+        "id": "q13",
+        "type": "single_choice",
+        "number": 13,
+        "question": "¿Has documentado tu Propuesta de Valor Única (PUV)?",
+        "description": "Lo específico que ofreces que otros no",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sí, la tengo clara y documentada"
+          },
+          {
+            "id": "b",
+            "text": "La tengo en mente pero no escrita"
+          },
+          {
+            "id": "c",
+            "text": "Aún no la he definido bien"
+          },
+          {
+            "id": "d",
+            "text": "No sé cuál es mi PUV"
+          }
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "autoconocimiento"
+      },
+      {
+        "id": "q14",
+        "type": "single_choice",
+        "number": 14,
+        "question": "¿Cuánto tiempo dedicas regularmente a construir tu marca personal?",
+        "description": "Consistencia en inversión de tiempo",
+        "options": [
+          {
+            "id": "a",
+            "text": "Dedicado: 10+ horas por semana"
+          },
+          {
+            "id": "b",
+            "text": "Moderado: 3-10 horas por semana"
+          },
+          {
+            "id": "c",
+            "text": "Mínimo: menos de 3 horas"
+          },
+          {
+            "id": "d",
+            "text": "Casi nada: no dedico tiempo"
+          }
+        ],
+        "correctAnswer": "b",
+        "weight": 1,
+        "category": "autoconocimiento"
+      },
+      {
+        "id": "q15",
+        "type": "single_choice",
+        "number": 15,
+        "question": "¿Cuál es tu mayor reto con tu marca personal actual?",
+        "description": "El obstáculo principal",
+        "options": [
+          {
+            "id": "a",
+            "text": "Falta de claridad en mi posicionamiento"
+          },
+          {
+            "id": "b",
+            "text": "No sé cómo comunicar mi valor"
+          },
+          {
+            "id": "c",
+            "text": "Falta de tiempo o recursos"
+          },
+          {
+            "id": "d",
+            "text": "No sé por dónde empezar"
+          }
+        ],
+        "correctAnswer": "a",
+        "weight": 1,
+        "category": "autoconocimiento"
+      }
+    ]
+  }
+}
